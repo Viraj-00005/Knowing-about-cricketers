@@ -1,6 +1,7 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,6 +19,31 @@
     body{
       background:linear-gradient(to right, #141e30, #243b55);
       color:white;
+    }
+
+    .back-arrow{
+      position:fixed;
+      top:20px;
+      left:20px;
+      width:55px;
+      height:55px;
+      background:#00ffcc;
+      color:black;
+      text-decoration:none;
+      font-size:35px;
+      font-weight:bold;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow:0 0 15px rgba(0,0,0,0.5);
+      transition:0.4s;
+      z-index:1000;
+    }
+
+    .back-arrow:hover{
+      background:white;
+      transform:scale(1.1);
     }
 
     .top-section{
@@ -97,6 +123,14 @@
 
 <body>
 
+  <!-- Back Arrow -->
+
+  <a href="index.html" class="back-arrow">
+    ←
+  </a>
+
+  <!-- Top Section -->
+
   <div class="top-section">
 
     <h1>CRICKET PLAYERS</h1>
@@ -116,6 +150,8 @@
 
   </div>
 
+  <!-- Players Section -->
+
   <div class="players-container" id="playersContainer">
 
     <!-- Virat Kohli -->
@@ -134,7 +170,6 @@
 
     </a>
 
-
     <!-- Rohit Sharma -->
 
     <div class="player-card">
@@ -146,7 +181,6 @@
       </div>
 
     </div>
-
 
     <!-- Ishan Kishan -->
 
