@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="azYx4xFzApASM3NhgPBkeZ5FiRUd91M6pJ4wM0qkyyc" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>KNOWING ABOUT CRICKETERS</title>
 
   <style>
+
     *{
       margin:0;
       padding:0;
       box-sizing:border-box;
-      font-family: Arial, sans-serif;
+      font-family:Arial, sans-serif;
     }
 
     body{
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      background:linear-gradient(to right,#141e30,#243b55);
       color:white;
     }
 
     header{
       height:100vh;
       display:flex;
-      flex-direction:column;
       justify-content:center;
       align-items:center;
       text-align:center;
       padding:20px;
     }
 
-    header h1{
-      font-size:70px;
-      color:#00ffcc;
-      text-shadow:0 0 20px #00ffcc;
-      margin-bottom:20px;
+    .content{
+      max-width:900px;
     }
 
-    header p{
+    .logo{
+      width:180px;
+      margin-bottom:20px;
+      filter:drop-shadow(0 0 15px #00ffcc);
+    }
+
+    h1{
+      font-size:75px;
+      color:#00ffcc;
+      text-shadow:0 0 20px #00ffcc;
+      margin-bottom:25px;
+    }
+
+    p{
       font-size:22px;
-      max-width:700px;
-      line-height:1.6;
+      line-height:1.8;
       color:#f1f1f1;
+      margin-bottom:40px;
     }
 
     .btn{
-      margin-top:30px;
-      padding:15px 35px;
+      padding:18px 40px;
+      font-size:20px;
       border:none;
-      border-radius:30px;
+      border-radius:40px;
       background:#00ffcc;
       color:black;
-      font-size:18px;
       cursor:pointer;
-      transition:0.4s;
       font-weight:bold;
+      transition:0.4s;
+      box-shadow:0 0 15px rgba(0,0,0,0.5);
     }
 
     .btn:hover{
@@ -60,138 +73,93 @@
       transform:scale(1.08);
     }
 
-    .players{
-      padding:60px 40px;
+    .about-section{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+      padding:70px 20px;
     }
 
-    .players h2{
-      text-align:center;
-      font-size:45px;
-      margin-bottom:50px;
-      color:#00ffcc;
-    }
-
-    .card-container{
-      display:flex;
-      justify-content:center;
-      gap:30px;
-      flex-wrap:wrap;
-    }
-
-    .card{
+    .about-box{
       background:rgba(255,255,255,0.1);
-      width:300px;
-      border-radius:20px;
-      overflow:hidden;
+      padding:40px;
+      border-radius:25px;
       backdrop-filter:blur(10px);
-      transition:0.4s;
-      box-shadow:0 0 15px rgba(0,0,0,0.5);
+      box-shadow:0 0 20px rgba(0,0,0,0.4);
     }
 
-    .card:hover{
-      transform:translateY(-10px);
-    }
-
-    .card img{
-      width:100%;
-      height:320px;
-      object-fit:cover;
-    }
-
-    .card-content{
-      padding:20px;
-    }
-
-    .card-content h3{
-      margin-bottom:10px;
-      color:#00ffcc;
-      font-size:28px;
-    }
-
-    .card-content p{
-      line-height:1.6;
-      color:#eaeaea;
-    }
-
-    footer{
+    .about-box h2{
       text-align:center;
-      padding:25px;
-      background:#111;
-      margin-top:50px;
-      font-size:18px;
+      font-size:50px;
+      color:#00ffcc;
+      margin-bottom:30px;
     }
 
-    @media(max-width:768px){
-      header h1{
-        font-size:45px;
-      }
-
-      header p{
-        font-size:18px;
-      }
+    .about-box p{
+      font-size:21px;
+      line-height:2;
+      color:#f1f1f1;
+      text-align:center;
     }
 
   </style>
+
 </head>
 
 <body>
 
   <header>
-    <h1>KNOWING ABOUT CRICKETERS</h1>
 
-    <p>
-      Explore the world of legendary cricketers, their records,
-      achievements, and inspiring journeys in international cricket.
-    </p>
+    <div class="content">
 
-    <a href="cricketplayers.html">
-  <button class="btn">Explore Players</button>
-</a>
-  </header>
-<section class="players">
+      <img src="logo.png" class="logo">
 
-  <h2>About This Website</h2>
+      <h1>KNOWING ABOUT CRICKETERS</h1>
 
-  <div class="card-container">
+      <p>
+        Explore the lives, achievements, statistics, and records
+        of famous cricket players from around the world.
+      </p>
 
-    <div class="card" style="width:900px;">
-
-      <div class="card-content">
-
-        <h3>KNOWING ABOUT CRICKETERS</h3>
-
-        <p>
-          KNOWING ABOUT CRICKETERS is a website specially created for cricket lovers
-          who want to explore the exciting world of cricket and its legendary players.
-          This website provides information about famous cricketers, their achievements,
-          records, playing styles, and inspiring journeys.
-        </p>
-
-        <br>
-
-        <p>
-          Whether you are a beginner learning about cricket or a passionate fan,
-          this platform helps you discover interesting facts about players from
-          different countries. The website is designed with a modern and attractive
-          look to give users an enjoyable experience while learning about cricket.
-        </p>
-
-        <br>
-
-        <p>
-          Our goal is to make cricket knowledge simple, fun, and accessible for everyone.
-        </p>
-
-      </div>
+      <a href="cricketplayers.html">
+        <button class="btn">Explore Players</button>
+      </a>
 
     </div>
 
-  </div>
+  </header>
 
-</section>
-  <footer>
-    © 2026 KNOWING ABOUT CRICKETERS | Designed with ❤️
-  </footer>
+  <section class="about-section">
 
+    <div class="about-box">
+
+      <h2>About This Website</h2>
+
+      <p>
+        KNOWING ABOUT CRICKETERS is a modern and informative cricket website
+        created for cricket fans who want to explore the lives and achievements
+        of famous cricketers. The website provides player profiles, career
+        statistics, international records, centuries, runs, personal information,
+        and major achievements of legendary cricket players.
+      </p>
+
+      <br>
+
+      <p>
+        Users can easily search for their favorite cricketers through a functional
+        search bar and open separate detailed webpages for each player. The website
+        is designed with an attractive interface, smooth navigation, and responsive
+        layout to give users an enjoyable and interactive cricket learning experience.
+      </p>
+
+    </div>
+
+  </section>
+<div class="heart-box">
+
+  © 2026 • Made From Heart ❤️
+
+</div>
 </body>
+
 </html>
