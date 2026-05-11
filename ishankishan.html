@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ishan Kishan</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    .top-section{
+      text-align:center;
+    }
+
+    .top-section img{
+      width:320px;
+      border-radius:20px;
+      margin-top:25px;
+      box-shadow:0 0 25px rgba(0,0,0,0.6);
+      max-width:100%;
+    }
+
+    .top-section h1{
+      font-size:70px;
+      color:#00ffcc;
+      text-shadow:0 0 15px #00ffcc;
+    }
+
+    .info-box{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      backdrop-filter:blur(10px);
+      line-height:2;
+      font-size:20px;
+    }
+
+    .description{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:1.9;
+      font-size:20px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-top:60px;
+      margin-bottom:30px;
+      font-size:45px;
+      color:#00ffcc;
+    }
+
+    .stats-container{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:25px;
+    }
+
+    .stat-card{
+      width:250px;
+      background:rgba(255,255,255,0.1);
+      padding:25px;
+      border-radius:20px;
+      text-align:center;
+      transition:0.4s;
+      backdrop-filter:blur(10px);
+    }
+
+    .stat-card:hover{
+      transform:translateY(-10px);
+    }
+
+    .stat-card h2{
+      color:#00ffcc;
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .achievements{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:2;
+      font-size:20px;
+    }
+
+    .back-btn{
+      display:inline-block;
+      margin-top:50px;
+      padding:15px 35px;
+      background:#00ffcc;
+      color:black;
+      text-decoration:none;
+      border-radius:40px;
+      font-weight:bold;
+      transition:0.4s;
+    }
+
+    .back-btn:hover{
+      background:white;
+      transform:scale(1.05);
+    }
+
+    .center{
+      text-align:center;
+    }
+
+    /* MOBILE RESPONSIVE */
+
+    @media screen and (max-width:768px){
+
+      body{
+        overflow-x:hidden;
+      }
+
+      .container{
+        width:95%;
+        padding:25px 10px;
+      }
+
+      .top-section h1{
+        font-size:42px;
+        line-height:1.3;
+      }
+
+      .top-section img{
+        width:90%;
+        max-width:280px;
+        margin-top:20px;
+      }
+
+      .info-box{
+        margin-top:25px;
+        padding:20px;
+        font-size:16px;
+        line-height:1.9;
+        border-radius:18px;
+      }
+
+      .description{
+        margin-top:25px;
+        padding:20px;
+        font-size:16px;
+        line-height:1.8;
+        border-radius:18px;
+      }
+
+      .section-title{
+        font-size:32px;
+        margin-top:40px;
+        margin-bottom:20px;
+      }
+
+      .stats-container{
+        gap:18px;
+      }
+
+      .stat-card{
+        width:100%;
+        max-width:320px;
+        padding:20px;
+        border-radius:18px;
+      }
+
+      .stat-card h2{
+        font-size:32px;
+      }
+
+      .achievements{
+        margin-top:25px;
+        padding:20px;
+        font-size:16px;
+        line-height:1.9;
+        border-radius:18px;
+      }
+
+      .back-btn{
+        width:90%;
+        max-width:280px;
+        padding:14px;
+        font-size:17px;
+        margin-top:35px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="top-section">
+
+      <h1>Ishan Kishan</h1>
+
+      <img src="02ishan-kishan.webp">
+
+    </div>
+
+    <div class="info-box">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Personal Information
+      </h2>
+
+      <p><b>Full Name:</b> Ishan Pranav Kumar Pandey Kishan</p>
+      <p><b>Date of Birth:</b> July 18 1998</p>
+      <p><b>Birth Place:</b> Patna, Bihar, India</p>
+      <p><b>Age:</b> 28 Years</p>
+      <p><b>Nationality:</b> Indian</p>
+      <p><b>Father:</b> Pranav Kumar Pandey</p>
+      <p><b>Mother:</b> Suchita Singh</p>
+      <p><b>Wife:</b> Not married yet</p>
+      <p><b>Profession:</b> International Cricketer</p>
+      <p><b>Playing Role:</b> Wicket-Keeper Batsman</p>
+      <p><b>Batting Order:</b> Top Order</p>
+      <p><b>Jersey Number:</b> 32</p>
+      <p><b>Batting Style:</b> Left-handed Batsman</p>
+      <p><b>Bowling Style:</b> Right-arm off-break/Leg-break</p>
+      <p><b>Retired Formats:</b> None</p>
+      <p><b>Captaincy:</b> Not yet</p>
+      <p><b>Total matches played in IPL:</b> 130 matches+</p>
+      <p><b>Current IPL team:</b> SRH
+      <p><b>Total matches played in International matches:</b> 74 matches+</p> 
+      <p><b>Highest score in interanational cricket:</b> 210[126] (ODI)</p>
+      <p><b>Highest score in IPL:</b> 106*[47] (Against RR)</p>  
+    </div>
+
+    <div class="description">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Description
+      </h2>
+
+<p>
+Ishan Kishan is an Indian wicketkeeper-batsman known for his aggressive batting style.  
+He plays as a top-order batter and is capable of scoring quick runs in limited-overs cricket.  
+He is one of the young emerging talents in Indian cricket.
+</p>
+
+<br>
+
+<p>
+He gained attention after scoring a double century in ODI cricket against Bangladesh.  
+Kishan is known for his fearless approach and attacking shots from the start.  
+He continues to develop as an important player for India in all formats.
+</p>
+
+         </div>
+
+    <h2 class="section-title">Century Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>2</h2>
+        <p>Total International Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>1</h2>
+        <p>ODI Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>0</h2>
+        <p>Test Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>1</h2>
+        <p>T20I Century</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>1</h2>
+        <p>IPL Centuries</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Run Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>2339+</h2>
+        <p>Total International Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>933+</h2>
+        <p>ODI Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>78+</h2>
+        <p>Test Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>1328+</h2>
+        <p>T20I Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>3407+</h2>
+        <p>IPL Runs</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Achievements</h2>
+
+    <div class="achievements">
+
+      <p>🏆 Youngest Indian wicketkeeper-batsman to score an ODI double century</p>
+
+<p>🏆 Scored 210 runs in ODI against Bangladesh (record-breaking innings)</p>
+
+<p>🏆 One of the fastest scoring wicketkeeper-batsmen in world cricket</p>
+
+<p>🏆 Played crucial roles in IPL for Mumbai Indians with explosive starts</p>
+
+<p>🏆 Known for aggressive power-hitting in the first 10 overs of innings</p>
+
+<p>🏆 Represented India in ICC tournaments as part of squad rotation</p>
+
+<p>🏆 Selected for India across formats at a very young age</p>
+
+<p>🏆 Consistently performed in domestic cricket (Jharkhand team)</p>
+
+<p>🏆 Recognized as one of India’s most promising young openers</p>
+
+<p>🏆 Ability to play both wicketkeeper and specialist batter roles</p>
+    </div>
+
+    <div class="center">
+
+      <a href="cricketplayers.html" class="back-btn">
+        Back to Players
+      </a>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
