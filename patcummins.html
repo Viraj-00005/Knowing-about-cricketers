@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pat Cummins</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    .top-section{
+      text-align:center;
+    }
+
+    .top-section img{
+      width:320px;
+      border-radius:20px;
+      margin-top:25px;
+      box-shadow:0 0 25px rgba(0,0,0,0.6);
+      max-width:100%;
+    }
+
+    .top-section h1{
+      font-size:70px;
+      color:#00ffcc;
+      text-shadow:0 0 15px #00ffcc;
+    }
+
+    .info-box{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      backdrop-filter:blur(10px);
+      line-height:2;
+      font-size:20px;
+    }
+
+    .description{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:1.9;
+      font-size:20px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-top:60px;
+      margin-bottom:30px;
+      font-size:45px;
+      color:#00ffcc;
+    }
+
+    .stats-container{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:25px;
+    }
+
+    .stat-card{
+      width:250px;
+      background:rgba(255,255,255,0.1);
+      padding:25px;
+      border-radius:20px;
+      text-align:center;
+      transition:0.4s;
+      backdrop-filter:blur(10px);
+    }
+
+    .stat-card:hover{
+      transform:translateY(-10px);
+    }
+
+    .stat-card h2{
+      color:#00ffcc;
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .achievements{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:2;
+      font-size:20px;
+    }
+
+    .back-btn{
+      display:inline-block;
+      margin-top:50px;
+      padding:15px 35px;
+      background:#00ffcc;
+      color:black;
+      text-decoration:none;
+      border-radius:40px;
+      font-weight:bold;
+      transition:0.4s;
+    }
+
+    .back-btn:hover{
+      background:white;
+      transform:scale(1.05);
+    }
+
+    .center{
+      text-align:center;
+    }
+
+    /* MOBILE RESPONSIVE */
+
+    @media screen and (max-width:768px){
+
+      body{
+        overflow-x:hidden;
+      }
+
+      .container{
+        width:95%;
+        padding:25px 10px;
+      }
+
+      .top-section h1{
+        font-size:42px;
+        line-height:1.3;
+      }
+
+      .top-section img{
+        width:90%;
+        max-width:280px;
+        margin-top:20px;
+      }
+
+      .info-box{
+        margin-top:25px;
+        padding:20px;
+        font-size:16px;
+        line-height:1.9;
+        border-radius:18px;
+      }
+
+      .description{
+        margin-top:25px;
+        padding:20px;
+        font-size:16px;
+        line-height:1.8;
+        border-radius:18px;
+      }
+
+      .section-title{
+        font-size:32px;
+        margin-top:40px;
+        margin-bottom:20px;
+      }
+
+      .stats-container{
+        gap:18px;
+      }
+
+      .stat-card{
+        width:100%;
+        max-width:320px;
+        padding:20px;
+        border-radius:18px;
+      }
+
+      .stat-card h2{
+        font-size:32px;
+      }
+
+      .achievements{
+        margin-top:25px;
+        padding:20px;
+        font-size:16px;
+        line-height:1.9;
+        border-radius:18px;
+      }
+
+      .back-btn{
+        width:90%;
+        max-width:280px;
+        padding:14px;
+        font-size:17px;
+        margin-top:35px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="top-section">
+
+      <h1>Pat Cummins</h1>
+
+      <img src="patcummins.jpg">
+
+    </div>
+
+    <div class="info-box">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Personal Information
+      </h2>
+
+      <p><b>Full Name:</b> Patrick James Cummins</p>
+      <p><b>Date of Birth:</b> 8 May 1993</p>
+      <p><b>Birth Place:</b> Westmead, New South, Wales, Australia</p>
+      <p><b>Age:</b> 33 Years</p>
+      <p><b>Nationality:</b> Australian</p>
+      <p><b>Father:</b> Peter Cummins</p>
+      <p><b>Mother:</b> Maria Cummins (Died)</p>
+      <p><b>Wife:</b> Rebecca Jane "Becky" Cummins</p>
+      <p><b>Profession:</b> International Cricketer</p>
+      <p><b>Playing Role:</b> Bowler</p>
+      <p><b>Batting Order:</b> Lower Order</p>
+      <p><b>Jersey Number:</b> 30</p>
+      <p><b>Batting Style:</b> Right-handed Batsman</p>
+      <p><b>Bowling Style:</b> Right-arm Fast</p>
+      <p><b>Retired Formats:</b> None</p>
+      <p><b>Captaincy:</b> Test and ODI (Current), T20I (Not yet)</p>
+      <p><b>Total matches played in IPL:</b> 76+ matches</p>
+      <p><b>Current IPL team:<b/> SRH
+      <p><b>Total matches played in International matches:</b> 200+ matches</p> 
+      <p><b>Best bowling spell in interanational cricket:</b> 6/28 (Test)</p>
+      <p><b>Best bowling spell in IPL:</b> 3/12 (Against DC)</p>  
+    </div>
+
+    <div class="description">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Description
+      </h2>
+<p>
+Pat Cummins is one of the best fast bowlers in modern cricket and the captain of the Australian cricket team.  
+He is known for his accurate pace bowling, calm leadership, and strong performances in international matches.  
+Cummins has played a major role in many victories for Australia across all formats.
+</p>
+
+<br>
+
+<p>
+Apart from bowling, Pat Cummins is also a useful lower-order batsman who can score important runs.  
+He helped Australia win major ICC tournaments and became one of the most respected captains in world cricket.  
+His consistency, sportsmanship, and teamwork have made him a global cricket star.
+</p>
+
+         </div>
+
+    <h2 class="section-title">Wicket Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>500+</h2>
+        <p>Total International Wickets</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>143+</h2>
+        <p>ODI Wickets</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>315+</h2>
+        <p>Test Wickets</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>66+</h2>
+        <p>T20I Wickets</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>83+</h2>
+        <p>IPL Wickets</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Economy Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>4.00</h2>
+        <p>Overall International Economy</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>5.27</h2>
+        <p>ODI Economy</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>2.90</h2>
+        <p>Test Economy</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>7.44</h2>
+        <p>T20I Economy</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>8.83</h2>
+        <p>IPL Economy</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Achievements</h2>
+
+    <div class="achievements">
+
+   <p>🏆 ICC Cricket World Cup Winner (2023)</p>
+
+<p>🏆 ICC World Test Championship Winner (2023)</p>
+
+<p>🏆 Australian Test Team Captain</p>
+
+<p>🏆 One of the top-ranked fast bowlers in ICC rankings</p>
+
+<p>🏆 Known for deadly pace and accurate bowling</p>
+
+<p>🏆 Played key role in Australia’s Ashes victories</p>
+
+<p>🏆 Successful captain in international cricket</p>
+
+<p>🏆 Strong lower-order batsman for Australia</p>
+
+<p>🏆 IPL title-winning captain with Sunrisers Hyderabad</p>
+
+<p>🏆 One of the most consistent fast bowlers of modern cricket</p>
+<p>🏆 Multiple five-wicket hauls in international cricket</p>
+
+<p>🏆 Respected for leadership, discipline, and sportsmanship</p>
+    </div>
+
+    <div class="center">
+
+      <a href="cricketplayers.html" class="back-btn">
+        Back to Players
+      </a>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
