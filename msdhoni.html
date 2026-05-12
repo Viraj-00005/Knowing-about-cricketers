@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MS Dhoni</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    .top-section{
+      text-align:center;
+    }
+
+    .top-section img{
+      width:320px;
+      border-radius:20px;
+      margin-top:25px;
+      box-shadow:0 0 25px rgba(0,0,0,0.6);
+      max-width:100%;
+    }
+
+    .top-section h1{
+      font-size:70px;
+      color:#00ffcc;
+      text-shadow:0 0 15px #00ffcc;
+    }
+
+    .info-box{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      backdrop-filter:blur(10px);
+      line-height:2;
+      font-size:20px;
+    }
+
+    .description{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:1.9;
+      font-size:20px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-top:60px;
+      margin-bottom:30px;
+      font-size:45px;
+      color:#00ffcc;
+    }
+
+    .stats-container{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:25px;
+    }
+
+    .stat-card{
+      width:250px;
+      background:rgba(255,255,255,0.1);
+      padding:25px;
+      border-radius:20px;
+      text-align:center;
+      transition:0.4s;
+      backdrop-filter:blur(10px);
+    }
+
+    .stat-card:hover{
+      transform:translateY(-10px);
+    }
+
+    .stat-card h2{
+      color:#00ffcc;
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .achievements{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:2;
+      font-size:20px;
+    }
+
+    .back-btn{
+      display:inline-block;
+      margin-top:50px;
+      padding:15px 35px;
+      background:#00ffcc;
+      color:black;
+      text-decoration:none;
+      border-radius:40px;
+      font-weight:bold;
+      transition:0.4s;
+    }
+
+    .back-btn:hover{
+      background:white;
+      transform:scale(1.05);
+    }
+
+    .center{
+      text-align:center;
+    }
+
+    @media screen and (max-width:768px){
+
+      .container{
+        width:95%;
+        padding:25px 10px;
+      }
+
+      .top-section h1{
+        font-size:42px;
+        line-height:1.3;
+      }
+
+      .top-section img{
+        width:90%;
+        max-width:280px;
+        margin-top:20px;
+      }
+
+      .info-box,
+      .description,
+      .achievements{
+        padding:20px;
+        font-size:16px;
+        line-height:1.8;
+      }
+
+      .section-title{
+        font-size:32px;
+      }
+
+      .stat-card{
+        width:100%;
+        max-width:320px;
+        padding:20px;
+      }
+
+      .stat-card h2{
+        font-size:32px;
+      }
+
+      .back-btn{
+        width:90%;
+        max-width:280px;
+        padding:14px;
+        font-size:17px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="top-section">
+
+      <h1>MS Dhoni</h1>
+
+      <img src="Dhoni.webp">
+
+    </div>
+
+    <div class="info-box">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Personal Information
+      </h2>
+
+      <p><b>Full Name:</b> Mahendra Singh Dhoni</p>
+      <p><b>Date of Birth:</b> 7 July 1981</p>
+      <p><b>Birth Place:</b> Ranchi, Jharkhand, India</p>
+      <p><b>Age:</b> 44 Years</p>
+      <p><b>Nationality:</b> Indian</p>
+      <p><b>Father:</b> Pan Singh Dhoni</p>
+      <p><b>Mother:</b> Devaki Devi</p>
+      <p><b>Wife:</b> Sakshi Dhoni</p>
+      <p><b>Profession:</b> International Cricketer</p>
+      <p><b>Playing Role:</b> Wicket-Keeper Batsman</p>
+      <p><b>Batting Order:</b> Middle Order</p>
+      <p><b>Jersey Number:</b> 07</p>
+      <p><b>Batting Style:</b> Right-handed Batsman</p>
+      <p><b>Bowling Style:</b> Right-arm Fast</p>
+      <p><b>Retired Formats:</b> All Formats</p>
+      <p><b>Captaincy:</b> All Formats (former)</p>
+      <p><b>Total matches played in IPL:</b> 250+ matches</p>
+      <p><b>Current IPL team:</b> CSK</p>
+      <p><b>Total matches played in International matches:</b> 1099 matches</p> 
+      <p><b>Highest score in interanational cricket:</b> 224*[265] (Test)</p>
+      <p><b>Highest score in IPL:</b> 84*[48] (Against RCB)</p>
+       <p><b>Height:</b> 5ft 11 in</p>  
+    </div>
+
+    <div class="description">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Description
+      </h2>
+
+<p>
+MS Dhoni is one of the greatest captains and wicketkeepers in cricket history.  
+He is known for his calm nature, sharp cricketing mind, and powerful finishing ability.  
+Dhoni played a major role in making India one of the strongest cricket teams in the world.
+</p>
+
+<br>
+
+<p>
+He led India to victory in the ICC T20 World Cup, ICC Cricket World Cup, and ICC Champions Trophy.  
+Dhoni is famous for his helicopter shot, match-finishing skills, and brilliant wicketkeeping.  
+His leadership, experience, and consistency made him a legendary figure in world cricket.
+</p>
+
+        </div>
+
+    <h2 class="section-title">Century Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>16</h2>
+        <p>Total International Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>10</h2>
+        <p>ODI Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>6</h2>
+        <p>Test Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>0</h2>
+        <p>T20I Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>0</h2>
+        <p>IPL Centuries</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Run Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>17773</h2>
+        <p>Total International Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>10980</h2>
+        <p>ODI Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>4876</h2>
+        <p>Test Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>1917</h2>
+        <p>T20I Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>5439</h2>
+        <p>IPL Runs</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Achievements</h2>
+
+    <div class="achievements">
+<p>🏆 ICC Cricket World Cup Winner (2011)</p>
+
+<p>🏆 ICC T20 World Cup Winner (2007)</p>
+
+<p>🏆 ICC Champions Trophy Winner (2013)</p>
+
+<p>🏆 One of the greatest captains in cricket history</p>
+
+<p>🏆 Multiple IPL titles as Chennai Super Kings captain</p>
+
+<p>🏆 Famous for finishing matches under pressure</p>
+
+<p>🏆 Rajiv Gandhi Khel Ratna Award Winner</p>
+
+<p>🏆 Padma Bhushan Award Winner</p>
+
+<p>🏆 Padma Shri Award Winner</p>
+
+<p>🏆 Most successful Indian wicketkeeper captains</p>
+
+<p>🏆 Known for the iconic helicopter shot</p>
+
+<p>🏆 One of the best wicketkeepers in world cricket</p>
+<p>🏆 Most international matches as Indian captain</p>
+
+<p>🏆 ICC ODI Player of the Year (Multiple Times)</p>
+
+<p>🏆 Led India to No.1 Test ranking</p>
+
+<p>🏆 One of the best finishers in ODI cricket history</p>
+
+<p>🏆 Respected worldwide for calm leadership and sportsmanship</p>
+
+      
+    </div>
+
+    <div class="center">
+
+      <a href="cricketplayers.html" class="back-btn">
+        Back to Players
+      </a>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
