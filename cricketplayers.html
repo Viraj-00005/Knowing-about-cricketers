@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <meta charset="UTF-8">
@@ -84,6 +85,7 @@
     .players-container{
       display:flex;
       justify-content:center;
+      align-items:flex-start;
       flex-wrap:wrap;
       gap:30px;
       padding:50px;
@@ -237,64 +239,70 @@
 
     <!-- Rohit Sharma -->
 
-   <!-- Rohit Sharma -->
+    <a href="rohitsharma.html" style="text-decoration:none; color:white;">
 
-<a href="rohitsharma.html" style="text-decoration:none; color:white;">
+      <div class="player-card">
 
-  <div class="player-card">
+        <img src="OIP (1).webp">
 
-    <img src="OIP (1).webp">
+        <div class="player-content">
+          <h2>Rohit Sharma</h2>
+        </div>
 
-    <div class="player-content">
-      <h2>Rohit Sharma</h2>
-    </div>
+      </div>
+
+    </a>
+
+    <!-- Ishan Kishan -->
+
+    <a href="ishankishan.html" style="text-decoration:none; color:white;">
+
+      <div class="player-card">
+
+        <img src="02ishan-kishan.webp">
+
+        <div class="player-content">
+          <h2>Ishan Kishan</h2>
+        </div>
+
+      </div>
+
+    </a>
+
+    <!-- Pat Cummins -->
+
+    <a href="patcummins.html" style="text-decoration:none; color:white;">
+
+      <div class="player-card">
+
+        <img src="patcummins.jpg">
+
+        <div class="player-content">
+          <h2>Pat Cummins</h2>
+        </div>
+
+      </div>
+
+    </a>
+
+    <!-- MS Dhoni -->
+
+    <a href="msdhoni.html" style="text-decoration:none; color:white;">
+
+      <div class="player-card">
+
+        <img src="Dhoni.webp">
+
+        <div class="player-content">
+          <h2>MS Dhoni</h2>
+        </div>
+
+      </div>
+
+    </a>
 
   </div>
 
-</a>
-    <!-- Ishan Kishan -->
-<a href="ishankishan.html" style="text-decoration:none; color:white;">
-
-    <div class="player-card">
-
-      <img src="02ishan-kishan.webp">
-
-      <div class="player-content">
-        <h2>Ishan Kishan</h2>
-      </div>
-
-    </div>
-
-</a>
-<!-- Pat Cummins -->
-<a href="patcummins.html" style="text-decoration:none; color:white;">
-
-    <div class="player-card">
-
-      <img src="patcummins.jpg">
-
-      <div class="player-content">
-        <h2>Pat Cummins</h2>
-      </div>
-
-    </div>
-
-</a>
-<!-- MS Dhoni -->
-<a href="msdhoni.html" style="text-decoration:none; color:white;">
-
-    <div class="player-card">
-
-      <img src="Dhoni.webp">
-
-      <div class="player-content">
-        <h2>MS Dhoni</h2>
-      </div>
-
-   </div>
-</div>
-
-</a>
   <script>
 
     function searchPlayers(){
@@ -310,10 +318,10 @@
         let textValue = title.textContent || title.innerText;
 
         if(textValue.toLowerCase().indexOf(input) > -1){
-          cards[i].style.display = "";
+          cards[i].parentElement.style.display = "block";
         }
         else{
-          cards[i].style.display = "none";
+          cards[i].parentElement.style.display = "none";
         }
 
       }
@@ -323,4 +331,5 @@
   </script>
 
 </body>
+
 </html>
