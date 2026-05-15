@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sachin Tendulkar</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    .top-section{
+      text-align:center;
+    }
+
+    .top-section img{
+      width:320px;
+      border-radius:20px;
+      margin-top:25px;
+      box-shadow:0 0 25px rgba(0,0,0,0.6);
+      max-width:100%;
+    }
+
+    .top-section h1{
+      font-size:70px;
+      color:#00ffcc;
+      text-shadow:0 0 15px #00ffcc;
+    }
+
+    .info-box{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      backdrop-filter:blur(10px);
+      line-height:2;
+      font-size:20px;
+    }
+
+    .description{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:1.9;
+      font-size:20px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-top:60px;
+      margin-bottom:30px;
+      font-size:45px;
+      color:#00ffcc;
+    }
+
+    .stats-container{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:25px;
+    }
+
+    .stat-card{
+      width:250px;
+      background:rgba(255,255,255,0.1);
+      padding:25px;
+      border-radius:20px;
+      text-align:center;
+      transition:0.4s;
+      backdrop-filter:blur(10px);
+    }
+
+    .stat-card:hover{
+      transform:translateY(-10px);
+    }
+
+    .stat-card h2{
+      color:#00ffcc;
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .achievements{
+      margin-top:40px;
+      background:rgba(255,255,255,0.1);
+      padding:30px;
+      border-radius:20px;
+      line-height:2;
+      font-size:20px;
+    }
+
+    .back-btn{
+      display:inline-block;
+      margin-top:50px;
+      padding:15px 35px;
+      background:#00ffcc;
+      color:black;
+      text-decoration:none;
+      border-radius:40px;
+      font-weight:bold;
+      transition:0.4s;
+    }
+
+    .back-btn:hover{
+      background:white;
+      transform:scale(1.05);
+    }
+
+    .center{
+      text-align:center;
+    }
+
+    @media screen and (max-width:768px){
+
+      .container{
+        width:95%;
+        padding:25px 10px;
+      }
+
+      .top-section h1{
+        font-size:42px;
+        line-height:1.3;
+      }
+
+      .top-section img{
+        width:90%;
+        max-width:280px;
+        margin-top:20px;
+      }
+
+      .info-box,
+      .description,
+      .achievements{
+        padding:20px;
+        font-size:16px;
+        line-height:1.8;
+      }
+
+      .section-title{
+        font-size:32px;
+      }
+
+      .stat-card{
+        width:100%;
+        max-width:320px;
+        padding:20px;
+      }
+
+      .stat-card h2{
+        font-size:32px;
+      }
+
+      .back-btn{
+        width:90%;
+        max-width:280px;
+        padding:14px;
+        font-size:17px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="top-section">
+
+      <h1>Sachin Tendulkar</h1>
+
+      <img src="Sachin.png">
+
+    </div>
+
+    <div class="info-box">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Personal Information
+      </h2>
+
+      <p><b>Full Name:</b> Sachin Ramesh Tendulkar</p>
+      <p><b>Date of Birth:</b> 24 April 1988</p>
+      <p><b>Birth Place:</b> Mumbai, Maharashtra, India</p>
+      <p><b>Age:</b> 52 Years</p>
+      <p><b>Nationality:</b> Indian</p>
+      <p><b>Father:</b> Ramesh Tendulkar (Died)</p>
+      <p><b>Mother:</b> Rajni Tendulkar</p>
+      <p><b>Wife:</b> Anjali Tendulkar</p>
+      <p><b>Profession:</b> International Cricketer (former)</p>
+      <p><b>Playing Role:</b> Batsman</p>
+      <p><b>Batting Order:</b> Opener</p>
+      <p><b>Jersey Number:</b> 10</p>
+      <p><b>Batting Style:</b> Right-handed Batsman</p>
+      <p><b>Bowling Style:</b> Right-arm leg break</p>
+      <p><b>Retired Formats:</b> All formats</p>
+      <p><b>Captaincy:</b> Test and ODI (former) T20I (This format was not at that time)</p>
+      <p><b>Total matches played in IPL:</b> 78 matches</p>
+      <p><b>Current IPL team:</b> MI (former)</p>
+      <p><b>Total matches played in International cricket:</b> 664 matches</p> 
+      <p><b>Highest score in interanational cricket:</b> 248*[379] (Test)</p>
+      <p><b>Highest score in IPL:</b> 100*[66] (Against Kochi Tuskers)</p> 
+<p><b>Height:</b> 5ft 5 in</p> 
+    </div>
+
+    <div class="description">
+
+      <h2 style="color:#00ffcc; margin-bottom:20px; text-align:center;">
+        Description
+      </h2>
+
+  <p>
+    Sachin Tendulkar is regarded as one of the greatest cricketers in the history of cricket.
+    He is famous for his outstanding batting skills, consistency, and long international career.
+    Millions of cricket fans around the world call him the “God of Cricket”.
+  </p>
+
+  <br>
+
+  <p>
+    Sachin played for India for more than two decades and broke many world records.
+    He became the first player to score 100 international centuries and over 34000 international runs.
+    His dedication, discipline, and humble personality made him a global sports icon.
+
+   </p>
+    </div>
+
+    <h2 class="section-title">Century Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>100</h2>
+        <p>Total International Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>49</h2>
+        <p>ODI Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>51</h2>
+        <p>Test Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>0</h2>
+        <p>T20I Centuries</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>1</h2>
+        <p>IPL Centuries</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Run Records</h2>
+
+    <div class="stats-container">
+
+      <div class="stat-card">
+        <h2>34357</h2>
+        <p>Total International Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>18426</h2>
+        <p>ODI Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>15921</h2>
+        <p>Test Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>0</h2>
+        <p>T20I Runs</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>2334</h2>
+        <p>IPL Runs</p>
+      </div>
+
+    </div>
+
+    <h2 class="section-title">Achievements</h2>
+
+    <div class="achievements">
+
+ <p>🏆 First cricketer to score 100 international centuries</p>
+
+  <p>🏆 Highest run-scorer in international cricket history</p>
+
+  <p>🏆 First player to score a double century in ODI cricket</p>
+
+  <p>🏆 Won the ICC Cricket World Cup (2011) with India</p>
+
+  <p>🏆 Bharat Ratna Award recipient</p>
+
+  <p>🏆 Rajiv Gandhi Khel Ratna Award winner</p>
+
+  <p>🏆 Padma Vibhushan Award recipient</p>
+
+  <p>🏆 Padma Shri Award recipient</p>
+
+  <p>🏆 Arjuna Award winner</p>
+
+  <p>🏆 Most runs scored in ODI Cricket</p>
+
+  <p>🏆 Most runs scored in Test Cricket</p>
+
+  <p>🏆 Played 200 Test matches — most by any player</p>
+
+  <p>🏆 Youngest Indian to debut in international cricket at that time</p>
+
+  <p>🏆 Multiple ICC ODI Team of the Year selections</p>
+
+  <p>🏆 Known as the “God of Cricket” by millions of fans worldwide</p>
+
+
+    </div>
+
+    <div class="center">
+
+      <a href="cricketplayers.html" class="back-btn">
+        Back to Players
+      </a>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
